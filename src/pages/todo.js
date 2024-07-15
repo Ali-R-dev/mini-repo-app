@@ -5,8 +5,8 @@ const Todo = () => {
     const [todoList, setToDoList] = React.useState([])
     const [inputValue, setInputValue] = React.useState("")
   return (
-    <div>
-      <h1 >TO-DO</h1>
+    <div className=''>
+      <h1 className=''>TO-DO</h1>
       <input
         type="text"
         className='input'
